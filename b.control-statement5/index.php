@@ -14,14 +14,15 @@
 
   if ($i == 10) {
     # first if statement
-    if ($i < 15)
+    if ($i < 15) {
       echo "i is smaller than 15 <br>";
-
+    }
     # nested if statement
-    if ($i < 12)
+    if ($i < 12) {
       echo "i is smaller than 12 too <br>";
-    else
-      echo "i is greater than 15";
+    }
+  } else {
+    echo "i is greater than 15";
   }
   ?>
 </body>
