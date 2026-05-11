@@ -1,0 +1,32 @@
+body{
+  min-height: 800px;
+  border: 8px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center ;
+  align-content: center;
+  gap: 20px;
+  
+   
+}
+.box{
+  border: 0.5px solid rgb(218, 218, 218);
+  flex-shrink: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 200px;
+  height: 290px;
+  background-color:light;
+  font-size: 60pt;
+  box-shadow: 7px 5px 11px -5px rgba(0, 0, 0, 0.39);
+  border-radius: 4px;
+}
+
+.box:hover{
+  background-color: rgb(183, 244, 249);
+}
+
+
+
